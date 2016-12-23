@@ -18,4 +18,4 @@
 import pickle
 
 enron_data = pickle.load(open("../final_project/final_project_dataset.pkl", mode="rb"),
-                         fix_imports=True, encoding='bytes', errors='strict')
+                         fix_imports=True, encoding='ASCII', errors='strict')
