@@ -9,11 +9,11 @@
     Sara has label 0
     Chris has label 1
 """
-    
+
+from tools.email_preprocess import preprocess
 import sys
 from time import time
 sys.path.append("../tools/")
-from email_preprocess import preprocess
 
 
 ### features_train and features_test are the features for the training
