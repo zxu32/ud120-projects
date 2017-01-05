@@ -30,8 +30,7 @@ ages_train, ages_test, net_worths_train, net_worths_test = \
 from sklearn import linear_model
 reg = linear_model.LinearRegression()
 reg.fit(ages_train, net_worths_train)
-print(reg.coef_)
-print(reg.score(ages_test, net_worths_test))
+
 try:
     plt.plot(ages, reg.predict(ages), color="blue")
 except NameError:
