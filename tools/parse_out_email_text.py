@@ -29,7 +29,6 @@ def parseOutText(f):
 
         # project part 2: comment out the line below
         # words = text_string
-
         # split the text string into individual words, stem each word,
         individualWords = text_string.split()
         stemmedWordsList = []
